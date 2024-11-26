@@ -1,7 +1,7 @@
 import styles from "./Aside.module.css";
 
 function Aside() {
-  return <div className={styles.title}>Aside</div>;
+  return <div className={styles.aside}>Aside</div>;
 }
 
 export default Aside;

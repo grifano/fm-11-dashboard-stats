@@ -1,0 +1,76 @@
+.infoCard {
+  background-color: #1c204b;
+  border-radius: 15px;
+  padding: 30px;
+  position: relative;
+}
+.infoCard__colorCaption {
+  border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  height: 160px;
+  top: -45px;
+  left: 0;
+  z-index: -1;
+  &.isWork {
+    background-color: #ff8b64;
+  }
+  &.isPlay {
+    background-color: #55c2e6;
+  }
+  &.isStudy {
+    background-color: #ff5e7d;
+  }
+  &.isExercise {
+    background-color: #4bcf82;
+  }
+  &.isSocial {
+    background-color: #7335d2;
+  }
+  &.isHealth {
+    background-color: #f1c75b;
+  }
+  svg {
+    position: absolute;
+    top: -14px;
+    right: 11px;
+    fill: rgba(0, 0, 0, 0.2);
+  }
+}
+.infoCard__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.infoCard__title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.infoCard__headerBtn {
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: background 300ms ease;
+  &:hover,
+  &:focus-visible {
+    background-color: #0e1323;
+  }
+  svg {
+    fill: #d8d8d8;
+  }
+}
+.infoCard__time {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.infoCard__detail {
+  font-size: 15px;
+  color: #bbc0ff;
+}

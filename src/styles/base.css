@@ -3,8 +3,8 @@ html {
 }
 body {
   font-size: 12px;
-  color: var(--body-text);
-  background-color: var(--body-bg);
+  color: var(--color-body-text);
+  background-color: var(--color-body-bg);
 }
 button {
   display: inline-block;

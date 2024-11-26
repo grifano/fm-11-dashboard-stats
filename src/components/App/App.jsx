@@ -1,11 +1,12 @@
-import Aside from "../Aside/Aside";
-import styles from "./App.module.css";
+import Dashboard from "../Dashboard/Dashboard";
+import Container from "../Container/Container";
 
 function App() {
   return (
     <>
-      <h1 className={styles.title}>Test</h1>
-      <Aside />
+      <Container>
+        <Dashboard />
+      </Container>
     </>
   );
 }
