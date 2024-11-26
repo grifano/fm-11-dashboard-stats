@@ -1,0 +1,9 @@
+:root {
+  /* Font Family */
+  --font-family: "Rubik", sans-serif;
+
+  /* Colors | Semantics */
+  --color-warning: #ff937f;
+  --color-success: #23c197;
+  --color-active: #3a7bfd;
+}
