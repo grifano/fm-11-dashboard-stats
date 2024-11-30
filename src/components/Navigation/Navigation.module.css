@@ -1,0 +1,9 @@
+.nav__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #7078c9;
+  &.active {
+    color: white;
+  }
+}
