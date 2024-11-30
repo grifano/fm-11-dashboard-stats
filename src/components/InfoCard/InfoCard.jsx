@@ -2,7 +2,7 @@ import styles from "./InfoCard.module.css";
 import clsx from "clsx";
 import toUpperCaseFirstChar from "../../Helpers/toUpperCaseFirstChar";
 
-function InfoCard({ title }) {
+function InfoCard({ title, timeframe }) {
   const titleChecked = title != "Self Care" ? title : "health";
 
   const svgIconPath = `/public/icons.svg#icon-${titleChecked}`;
@@ -10,8 +10,8 @@ function InfoCard({ title }) {
     styles.infoCard__colorCaption,
     styles[`is${toUpperCaseFirstChar(titleChecked)}`]
   );
-  const time = 32;
-  const lastWeek = 8;
+  const time = timeframe.current;
+  const lastWeek = timeframe.previous;
 
   console.log(dynamicColorCaption);
 

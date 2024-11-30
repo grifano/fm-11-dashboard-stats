@@ -2,11 +2,11 @@ import styles from "./Dashboard.module.css";
 import Aside from "../Aside/Aside";
 import CardsList from "../CardsList/CardsList";
 
-function Dashboard() {
+function Dashboard({ dataset }) {
   return (
     <div className={styles.dashboard}>
       <Aside />
-      <CardsList />
+      <CardsList forData={dataset} />
     </div>
   );
 }
