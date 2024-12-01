@@ -1,0 +1,17 @@
+.user {
+  width: 100%;
+  background-color: #5747ea;
+  border-radius: 15px;
+  padding: 34px 32px 80px;
+  line-height: 1.4;
+}
+.user__title {
+  font-size: 15px;
+  color: #bbc0ff;
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+.user__name {
+  font-size: 40px;
+  color: #fff;
+}

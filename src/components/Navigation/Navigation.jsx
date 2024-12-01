@@ -7,16 +7,24 @@ function Navigation() {
     return clsx(styles.nav__link, isActive && styles.active);
   };
   return (
-    <nav>
-      <NavLink to="/daily" className={buildLinkClass}>
-        Daily
-      </NavLink>
-      <NavLink to="/weekly" className={buildLinkClass}>
-        Weekly
-      </NavLink>
-      <NavLink to="/monthly" className={buildLinkClass}>
-        Monthly
-      </NavLink>
+    <nav className={styles.nav}>
+      <ul className={styles.nav__linkList}>
+        <li>
+          <NavLink to="/daily" className={buildLinkClass}>
+            Daily
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/weekly" className={buildLinkClass}>
+            Weekly
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/monthly" className={buildLinkClass}>
+            Monthly
+          </NavLink>
+        </li>
+      </ul>
     </nav>
   );
 }
