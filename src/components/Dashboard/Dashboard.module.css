@@ -1,5 +1,5 @@
 .dashboard {
   display: grid;
-  grid-template-columns: 255px auto;
-  gap: 30px;
+  grid-template-columns: 15.9375rem auto; /* 255px */
+  gap: 1.875rem; /* 30px */
 }

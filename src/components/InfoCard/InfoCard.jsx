@@ -5,7 +5,7 @@ import toUpperCaseFirstChar from "../../Helpers/toUpperCaseFirstChar";
 function InfoCard({ title, timeframe }) {
   const titleChecked = title != "Self Care" ? title : "health";
 
-  const svgIconPath = `/public/icons.svg#icon-${titleChecked}`;
+  const svgIconPath = `/public/icons.svg#icon-${titleChecked.toLowerCase()}`;
   const dynamicColorCaption = clsx(
     styles.infoCard__colorCaption,
     styles[`is${toUpperCaseFirstChar(titleChecked)}`]

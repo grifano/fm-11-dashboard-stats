@@ -1,5 +1,5 @@
 .container {
   width: 100%;
-  max-width: 1158px;
-  padding: 0 24px;
+  max-width: 72.375rem; /* 1158px */
+  padding: 0 1.5rem; /* 24px */
 }

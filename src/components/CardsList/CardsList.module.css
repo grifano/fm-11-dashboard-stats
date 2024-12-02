@@ -1,6 +1,6 @@
 .cardsList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 30px;
-  row-gap: 75px;
+  column-gap: 1.875rem; /* 30px */
+  row-gap: 4.6875rem; /* 75px */
 }

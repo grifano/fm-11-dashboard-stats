@@ -1,17 +1,19 @@
 .user {
   width: 100%;
   background-color: #5747ea;
-  border-radius: 15px;
-  padding: 34px 32px 80px;
+  border-radius: 0.9375rem; /* 15px */
+  padding: 2.125rem 2rem 5rem; /* 34px 32px 80px */
   line-height: 1.4;
 }
+
 .user__title {
-  font-size: 15px;
+  font-size: 0.9375rem; /* 15px */
   color: #bbc0ff;
-  margin-top: 40px;
-  margin-bottom: 4px;
+  margin-top: 2.5rem; /* 40px */
+  margin-bottom: 0.25rem; /* 4px */
 }
+
 .user__name {
-  font-size: 40px;
+  font-size: 2.5rem; /* 40px */
   color: #fff;
 }
