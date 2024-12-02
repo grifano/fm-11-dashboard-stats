@@ -13,8 +13,6 @@ function InfoCard({ title, timeframe }) {
   const time = timeframe.current;
   const lastWeek = timeframe.previous;
 
-  console.log(dynamicColorCaption);
-
   return (
     <article className={styles.infoCard}>
       <div className={dynamicColorCaption}>
