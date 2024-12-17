@@ -41,8 +41,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [FrontendMentor Solution Hub](!ADD LINK!)
-- Live Site URL: [GitHub Pages](https://grifano.github.io/fm-11-dashboard/)
+- Solution URL: [FrontendMentor Solution Hub](https://www.frontendmentor.io/solutions/time-tracking-dashboard-build-with-react-XXJzDLgQwd)
+- Live Site URL: [Vercel](https://fm-11-dashboard-stats.vercel.app)
 
 ## Author
 
