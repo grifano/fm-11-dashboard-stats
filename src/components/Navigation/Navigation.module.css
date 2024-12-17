@@ -3,7 +3,8 @@
 
   .nav__linkList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -12,8 +13,29 @@
   font-size: 1.125rem; /* 18px */
   color: #7078c9;
   padding: 0.625rem 0; /* 10px 0 */
-
+  transition: color 0.3s ease;
   &.active {
     color: white;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    .nav__linkList {
+      justify-content: start;
+      gap: 16px;
+    }
+  }
+}
+@media screen and (min-width: 991px) {
+  .nav {
+    .nav__linkList {
+      display: block;
+    }
   }
 }

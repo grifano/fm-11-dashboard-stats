@@ -35,8 +35,10 @@ function User() {
           height="78"
         />
       </picture>
-      <p className={styles.user__title}>Report for</p>
-      <p className={styles.user__name}>Jeremy Robson</p>
+      <div className={styles.user__bio}>
+        <p className={styles.user__title}>Report for</p>
+        <p className={styles.user__name}>Jeremy Robson</p>
+      </div>
     </div>
   );
 }

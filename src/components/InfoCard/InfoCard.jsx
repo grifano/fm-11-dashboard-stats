@@ -21,22 +21,24 @@ function InfoCard({ title, timeframe }) {
         </svg>
       </div>
 
-      <header className={styles.infoCard__header}>
-        <h3 className={styles.infoCard__title}>
-          {toUpperCaseFirstChar(title)}
-        </h3>
-        <button type="button" className={styles.infoCard__headerBtn}>
-          <svg width="21" height="5">
-            <use href="/public/icons.svg#icon-kebab-btn"></use>
-          </svg>
-        </button>
-      </header>
-      <section className={styles.infoCard__data}>
-        <p className={styles.infoCard__time}>{`${time}hrs`}</p>
-        <p
-          className={styles.infoCard__detail}
-        >{`Last Week - ${lastWeek}hrs`}</p>
-      </section>
+      <div className={styles.infoCard__content}>
+        <header className={styles.infoCard__header}>
+          <h3 className={styles.infoCard__title}>
+            {toUpperCaseFirstChar(title)}
+          </h3>
+          {/*NEED MENU <button type="button" className={styles.infoCard__headerBtn}>
+            <svg width="21" height="5">
+              <use href="/public/icons.svg#icon-kebab-btn"></use>
+            </svg>
+          </button> */}
+        </header>
+        <section className={styles.infoCard__data}>
+          <p className={styles.infoCard__time}>{`${time}hrs`}</p>
+          <p
+            className={styles.infoCard__detail}
+          >{`Last Week - ${lastWeek}hrs`}</p>
+        </section>
+      </div>
     </article>
   );
 }
