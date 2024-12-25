@@ -1,6 +1,6 @@
 import styles from "./InfoCard.module.css";
 import clsx from "clsx";
-import toUpperCaseFirstChar from "../../helpers/toUpperCaseFirstChar";
+import toUpperCaseFirstChar from "../../Helpers/toUpperCaseFirstChar";
 
 function InfoCard({ title, timeframe }) {
   const titleChecked = title != "Self Care" ? title : "health";
